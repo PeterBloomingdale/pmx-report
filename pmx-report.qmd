@@ -1,0 +1,80 @@
+---
+title: "Pharmacometrics Report Template"
+subtitle: "subtitle"
+author: Peter Bloomingdale
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+format:
+    pdf:
+        toc: true
+        number-sections: true
+bibliography: references.bib
+csl: nature.csl
+---
+
+{{< pagebreak >}}
+
+# Executive Summary
+
+- **Purpose of the analysis:** 
+    - [Description of the purpose]
+- **Key Findings:** 
+    - [Key findings that affect drug use or labeling]
+- **Summary:** 
+    - [Plain language summary of objectives, data, methodology, and conclusions]
+- **Clinical Relevance:** 
+    - [Description of results in terms of their effect on clinically relevant drug exposures]
+- **Visual Presentation:** 
+
+# Introduction
+
+- **Background:** 
+    - [Background information to place the population PK study in context]
+- **Objectives:** 
+    - [Objectives for the population PK analysis]
+- **Pharmacokinetic Characteristics:** 
+    - [PK characteristics of the drug]
+
+# Materials and Methods
+
+- **Description of Trials:**
+    - [Description of the trials and trial data, including dose, frequency, duration, subjects, samples, etc.]
+- **Data Exclusion (if any):**
+    - [Reasons for not including certain trials/data]
+- **Hyperlinks to Original Reports:**
+    - [Hyperlinks to original trial reports and bioanalytical evaluation reports]
+- **Demographics and Covariate Information:**
+    - [Detailed demographic and other covariate information]
+- **Model Building and Evaluation:**
+    - [Description of planned criteria, assumptions, procedures, handling of outliers and missing data, model-estimation method, equations, etc.]
+- **Software Used:** 
+    - [Software and version used for analysis and simulation]
+
+# Results
+
+- **Data Summary:**
+    - [Summary of data and data exploration with graphical and tabular displays]
+- **Model Description:**
+    - [Description of final model, model building steps, validation, final parameter estimates, deviations if any, etc.]
+- **Application of Model:**
+    - [Application of model to objectives, including relevance of covariates on PK parameters and simulations of alternative dosing if applicable]
+- **Tables and Figures:**
+
+# Discussion
+
+- **Interpretation of Results:**
+    - [Interpretation of modeling results including discussions on data adequacy, modeling approach, consistency or inconsistency between results, etc.]
+- **Clinical Relevance:**
+    - [Assessment of clinical relevance of results, physiological plausibility, and clinical significance of identified relationships]
+- **Alternative Dosing Regimens:**
+    - [Assessment of any alternative dosing regimens in the context of E-R analyses for safety and efficacy]
+
+# Conclusions
+
+- **Summary of Findings:**
+    - [Short summary of major findings from the analysis written in plain language]
+
+# Appendix
+
+- **Supplemental Materials:**
+    - [Supplemental tables, figures, methods and codes, listing of samples removed from analysis and reasons for removal, run record, diagram showing connection between input datasets, codes/control streams, and output datasets]
+
